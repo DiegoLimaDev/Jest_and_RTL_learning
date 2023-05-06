@@ -1,5 +1,8 @@
 import React from 'react';
-import { GreetingTypes } from './Greeting.types';
+
+type GreetingTypes = {
+  name?: string;
+};
 
 export const Greeting = (props: GreetingTypes) => {
   return (
